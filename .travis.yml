@@ -13,4 +13,4 @@ deploy:
   skip_cleanup: true
   script:
   https://dl.bintray.com/ituman4ik/HelloWorld
-  - curl -T helloworld-0.0.$TRAVIS_BUILD_NUMBER-Linux.deb -uiTuMaN4iK:$BINTRAY_API_KEY https://dl.bintray.com/ituman4ik/HelloWorld/$TRAVIS_BUILD_NUMBER/helloworld-0.0.$TRAVIS_BUILD_NUMBER-Linux.deb;deb_distribution=trusty;deb_component=main;deb_architecture=amd64;publish=1"
+  - curl -T helloworld-0.0.$TRAVIS_BUILD_NUMBER-Linux.deb -uiTuMaN4iK:f6fdee75835a66c818dc9ebadcf290afe733ffca https://dl.bintray.com/ituman4ik/HelloWorld/$TRAVIS_BUILD_NUMBER/helloworld-0.0.$TRAVIS_BUILD_NUMBER-Linux.deb;deb_distribution=trusty;deb_component=main;deb_architecture=amd64;publish=1"
